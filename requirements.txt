@@ -73,6 +73,8 @@ idna==3.10
     #   yarl
 importlib-metadata==8.5.0
     # via vyper
+lark==1.2.2
+    # via vyper
 multidict==6.1.0
     # via
     #   aiohttp
@@ -122,7 +124,7 @@ urllib3==2.2.3
     # via
     #   requests
     #   types-requests
-vyper==0.4.0
+vyper==0.4.1
     # via web3py-simple-storage-cu (pyproject.toml)
 web3==7.3.1
     # via web3py-simple-storage-cu (pyproject.toml)
